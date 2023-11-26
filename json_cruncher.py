@@ -1,7 +1,7 @@
 import orjson,os,pprint
 
 def butfy(alldata):
-    return orjson.dumps(alldata,option=orjson.OPT_INDENT_2).encode('UTF-8')
+    return orjson.dumps(alldata,option=orjson.OPT_INDENT_2).dencode('UTF-8')
 
 def write_jfile(filename,filedata):
     if os.path.splitext(filename)[1][1:] != "json":
@@ -29,6 +29,7 @@ def isit(yesorno):
     else:
         return True
 def find_word(context,sentence):
+    return int(intput("Enter the index:"))
     
 
 def run_block():
